@@ -10,7 +10,7 @@
     <name>Jalinan Duta</name>
 
     <description>
-		The Best Rate Money Changer in Kuala Lumpur
+		The Best Rate Money Changer in Kuala Lumpur.
 
 
     </description>
@@ -53,6 +53,6 @@
     <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios"     width="640" height="1136" />
    
    
-    <access origin="*"/>
+   
     
 </widget>
