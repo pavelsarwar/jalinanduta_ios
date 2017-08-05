@@ -5,30 +5,28 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.jalinan.duta"
         versionCode = "34" 
-	version   = "1.0.0">
+		version   = "1.0.0">
 
     <name>Jalinan Duta</name>
 
     <description>
 		The Best Rate Money Changer in Kuala Lumpur.
-
-
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
        Pavel Sarwar
     </author>
-	<content src="index.html"/>
+	
 <!-- Define app icon for each platform. -->
    
 	<icon src="icon.png" platform="ios"/>
 	<icon src="icon-60@3x.png" platform="ios" width="180" height="180" />
-	<platform name="ios">
-	<icon src="res/icon/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="res/icon/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="res/icon/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="res/icon/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-	</platform>
+	<icon src="res/icon/icon-58.png"            platform="ios"        width="120" height="120" />
+	<icon src="res/icon/icon-57.png"            platform="ios"        width="57" height="57" />
+    <icon src="res/icon/icon-72.png"            platform="ios"        width="72" height="72" />
+    <icon src="res/icon/icon-57-2x.png"         platform="ios"        width="114" height="114" />
+    <icon src="res/icon/icon-72-2x.png"         platform="ios"        width="144" height="144" />
+
     
 	
 	
@@ -36,6 +34,7 @@
     <preference name="phonegap-version"           value="cli-6.5.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="portrait" />      <!-- all: possible values handset, tablet, or universal -->
+	
     <!-- <preference name="UIWebViewDecelerationSpeed" value="fast" />-->
 	<preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
@@ -50,9 +49,9 @@
     <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
    
 	<!-- Define app splash screen for each platform. -->
-	<gap:splash src="res/screen/ios/screen-iphone-portrait.png"         gap:platform="ios"     width="320" height="480" />
+	<!--<gap:splash src="res/screen/ios/screen-iphone-portrait.png"         gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png"      gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" gap:platform="ios"     width="640" height="1136" />-->
    
   <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
 
